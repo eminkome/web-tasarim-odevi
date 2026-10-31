@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerim ve İletişim - Emin Köme</title>
+</head>
+<body>
+
+    <header>
+        <h1>EMİN KÖME</h1>
+        <p>Geliştirdiğim Projeler ve İletişim</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td><a href="index.html">Anasayfa</a></td>
+                    <td><a href="proje.html">Projelerim ve İletişim</a></td>
+                    <td><a href="https://github.com/eminkome" target="_blank">GitHub Profilim</a></td>
+                    <td><a href="https://www.nisantasi.edu.tr" target="_blank">Nişantaşı Üniversitesi</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Mevcut Projeler Listesi</h2>
+            <p>Şu ana kadar geliştirdiğim web yazılım ve animasyon projelerinin listesi aşağıda yer almaktadır:</p>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Proje Adı</th>
+                        <th>Kategori</th>
+                        <th>Teknolojiler</th>
+                        <th>Durum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Oynanıyo Platformu</td>
+                        <td>Web Geliştirme</td>
+                        <td>HTML5, CSS3, JS</td>
+                        <td>Devam Ediyor</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Emin Calendar</td>
+                        <td>Web Uygulaması</td>
+                        <td>Python, FastAPI, Vercel</td>
+                        <td>Canlıda</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Spider Lily Animasyon</td>
+                        <td>Ön Yüz Tasarım</td>
+                        <td>HTML5, CSS3, JS</td>
+                        <td>Tamamlandı</td>
+                    </tr>
+                    <tr>
+                        <td>104</td>
+                        <td>Lavix 3D Showreel</td>
+                        <td>Motion Graphics</td>
+                        <td>Adobe After Effects</td>
+                        <td>Devam Ediyor</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td align="center" colspan="5">Toplam Proje Sayısı: 4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Kampüs Konumu</h2>
+            <article>
+                <h3>İstanbul Nişantaşı Üniversitesi NeoTech Kampüsü</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.0264442526356!2d29.0069053!3d41.1121111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5bf15c34913%3A0x19571e96a212f624!2zTmnFn2FudGHFn8SxIMOcbml2ZXJzaXRlc2kgTmVvVGVjaCBKaW1wz7xzw7w!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str" 
+                    width="600" 
+                    height="350" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </article>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Detaylı Başvuru ve Proje Katılım Formu</h2>
+            <p>Projeler hakkında görüşmek veya ortak çalışmalara katılmak için aşağıdaki formu doldurabilirsiniz:</p>
+
+            <form action="" method="post">
+                <p>
+                    <label for="ad">Adınız Soyadınız:</label>
+                    <input type="text" id="ad" name="ad" required>
+                </p>
+
+                <p>
+                    <label for="mail">E-Posta Adresiniz:</label>
+                    <input type="email" id="mail" name="mail" required>
+                </p>
+
+                <p>
+                    <label for="konu">İlgilendiğiniz Alan:</label>
+                    <select id="konu" name="konu">
+                        <option value="web">Web Tasarımı ve Kodlama</option>
+                        <option value="python">Python & Veritabanı</option>
+                        <option value="video">Video Kurgu & After Effects</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </p>
+
+                <p>
+                    Deneyim Seviyeniz:
+                    <input type="radio" id="baslangic" name="seviye" value="baslangic" checked>
+                    <label for="baslangic">Başlangıç</label>
+
+                    <input type="radio" id="orta" name="seviye" value="orta">
+                    <label for="orta">Orta</label>
+
+                    <input type="radio" id="ileri" name="seviye" value="ileri">
+                    <label for="ileri">İleri</label>
+                </p>
+
+                <p>
+                    Kullandığınız Teknolojiler:
+                    <input type="checkbox" id="html" name="teknoloji" value="html">
+                    <label for="html">HTML / CSS</label>
+
+                    <input type="checkbox" id="sql" name="teknoloji" value="sql">
+                    <label for="sql">C# / SQL</label>
+
+                    <input type="checkbox" id="ae" name="teknoloji" value="ae">
+                    <label for="ae">After Effects</label>
+                </p>
+
+                <p>
+                    <label for="mesaj">Mesajınız:</label>
+                </p>
+                <p>
+                    <textarea id="mesaj" name="mesaj" rows="5" cols="45" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Gönder</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h3>İletişim Bilgileri</h3>
+            <p><strong>Adres:</strong> Maslak Mahallesi, Sarıyer / İSTANBUL</p>
+            <p><strong>E-Posta:</strong> <a href="mailto:emnnnkme@gmail.com">emnnnkme@gmail.com</a></p>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p><small>&copy; 2026 Emin Köme. Tüm hakları saklıdır.</small></p>
+    </footer>
+
+</body>
+</html>
